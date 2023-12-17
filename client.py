@@ -7,3 +7,4 @@ s.connect((HOST, PORT))
 s.sendall(str.encode("Bom dia Bóson!"))
 data = s.recv(1024)
 print("Message ecoed: ", data.decode())
+ 
